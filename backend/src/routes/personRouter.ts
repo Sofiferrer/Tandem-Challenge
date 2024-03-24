@@ -1,12 +1,12 @@
-import productController from "../controllers/personController";
+import personController from "../controllers/personController";
 import { Router } from "express";
 
-const productRouter = Router();
+const personRouter = Router();
 
 // Rutas
-productRouter.get("/", productController.getPerson);
-// productRouter.post("/", );
-// productRouter.put("/:id", );
-// productRouter.delete("/:id", );
+personRouter.get("/", personController.getPerson);
+// personRouter.post("/", );
+// personRouter.put("/:id", );
+// personRouter.delete("/:id", );
 
-export default productRouter;
+export default personRouter;
